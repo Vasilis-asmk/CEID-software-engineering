@@ -10,6 +10,12 @@ public class taxi extends user{
 
     }
 
+    public void notAccept() {
+
+    }
+
+
+    //getters and setters
     public int getTaxiId() {
         return taxiId;
     }
@@ -18,9 +24,5 @@ public class taxi extends user{
     // getters and setters
     public void setTaxiId(int taxiId) {
         this.taxiId = taxiId;
-    }
-
-    public void notAccept() {
-
     }
 }

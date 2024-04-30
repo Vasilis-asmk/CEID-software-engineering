@@ -1,17 +1,26 @@
-public class eventOrganizer extends user{
-
+public class admin extends user{
     //attributes
-    private int evOrgId;
     private String name;
     private String surname;
+    private double salary;
+    private String empDate;
 
     //methods
-    public void createEvent() {
 
+    public String getEmpDate() {
+        return empDate;
     }
 
-    public void compEventForm() {
+    public void setEmpDate(String empDate) {
+        this.empDate = empDate;
+    }
 
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 
     //getters and setters
@@ -30,13 +39,5 @@ public class eventOrganizer extends user{
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public int getEvOrgId() {
-        return evOrgId;
-    }
-
-    public void setEvOrgId(int evOrgId) {
-        this.evOrgId = evOrgId;
     }
 }

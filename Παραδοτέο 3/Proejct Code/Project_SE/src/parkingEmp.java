@@ -3,7 +3,7 @@ public class parkingEmp extends user{
     //attributes
 
 
-    //constractor
+    //constructor
     public parkingEmp() {
     }
 

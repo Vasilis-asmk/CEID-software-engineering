@@ -1,7 +1,7 @@
 public class screen {
     //attribues
 
-    //constractor
+    //constructor
 
     public screen() {
     }

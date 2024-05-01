@@ -2,7 +2,7 @@ public class map {
     //attributes
 
 
-    //constractor
+    //constructor
 
     public map() {
     }

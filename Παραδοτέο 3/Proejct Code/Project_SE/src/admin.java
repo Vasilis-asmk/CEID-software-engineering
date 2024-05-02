@@ -7,6 +7,9 @@ public class admin extends user{
 
     //methods
 
+
+
+    //getters and setters
     public String getEmpDate() {
         return empDate;
     }
@@ -22,8 +25,6 @@ public class admin extends user{
     public void setSalary(double salary) {
         this.salary = salary;
     }
-
-    //getters and setters
 
     public String getSurname() {
         return surname;

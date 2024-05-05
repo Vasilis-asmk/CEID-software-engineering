@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="909cb6df-c94e-43b9-a9f2-fd85f7b00ede" name="Changes" comment="Changes" />
+    <list default="true" id="909cb6df-c94e-43b9-a9f2-fd85f7b00ede" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/src/bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eventReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eventReview.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,18 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Pantelis190"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Pantelis190&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Vasilis-asmk/CEID-software-engineering.git",
-    "accountId": "369dacb6-6f5c-4ab1-93ca-bbfbb950275f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Vasilis-asmk/CEID-software-engineering.git&quot;,
+    &quot;accountId&quot;: &quot;369dacb6-6f5c-4ab1-93ca-bbfbb950275f&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>

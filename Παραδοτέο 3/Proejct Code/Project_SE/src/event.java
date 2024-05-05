@@ -1,4 +1,4 @@
-public class event extends eventOrganizer{
+public class event {
     //attributes
     private int eventId;
     private string eventName;

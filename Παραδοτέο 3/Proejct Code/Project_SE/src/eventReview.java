@@ -1,4 +1,4 @@
-public class eventReview extends event{
+public class eventReview {
     //attributes
     public int eventRevId;
     public string eventRevTitle;

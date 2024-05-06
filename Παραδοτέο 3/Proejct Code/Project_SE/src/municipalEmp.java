@@ -12,11 +12,17 @@ public class municipalEmp extends user{
 
     //methods
     public void acceptInt() {}
+
     public void rejectInt() {}
+
     public void eventAccept() {}
+
     public void eventDenial() {}
+
     public void rentAccept() { System.out.println("Parking space accepted!"); }
+
     public void insertAccept() {}
+
     public void insertNotAccept() {}
 
 
@@ -54,7 +60,6 @@ public class municipalEmp extends user{
         this.salary = salary;
     }
 
-    
 }
 
 

@@ -36,10 +36,6 @@ public class parkingEmp extends user{
 
     }
 
-    public void notifyMunicipalEmployee() {
-
-    }
-
     public void compPayDataForm() {
 
     }

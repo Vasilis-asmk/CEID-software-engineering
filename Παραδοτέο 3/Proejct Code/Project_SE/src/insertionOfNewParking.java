@@ -11,7 +11,7 @@ public class insertionOfNewParking extends screen{
     }
 
     public void privateOrPublicParking() {
-        System.out.println("Choose between private or public parking");
+        System.out.println("Choose between private or public parking:");
     }
 
     public void showMisData() {
@@ -30,8 +30,12 @@ public class insertionOfNewParking extends screen{
 
     }
 
+    public void notifyMunicipalEmployee() {
+
+    }
+
     public void nonAcceptanceInform() {
-        System.out.println("Parking was not accepted by municipal employee");
+        System.out.println("Parking was not accepted by municipal employee.");
     }
 
     public void showPayDataForm() {
@@ -51,12 +55,12 @@ public class insertionOfNewParking extends screen{
     }
 
     public void successfulInsertion() {
-        System.out.println("Parking was successfully inserted in the Database");
+        System.out.println("Parking was successfully inserted in the Database.");
     }
 
     public void showFail() {
         System.out.println("You failed to accept the transaction in time!");
     }
 
-    //getters and seters
+    //getters and setters
 }

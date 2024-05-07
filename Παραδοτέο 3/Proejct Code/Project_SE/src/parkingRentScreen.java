@@ -1,5 +1,6 @@
 public class parkingRentScreen extends screen{
     //attributes
+    public static int rentStatus = 1;
 
     //constructor
     public parkingRentScreen() {

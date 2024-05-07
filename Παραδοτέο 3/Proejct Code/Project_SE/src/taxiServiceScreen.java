@@ -1,6 +1,7 @@
 public class taxiServiceScreen extends screen{
 
     //attributes
+    public static int taxiStatus = 1;
 
     //constructor
     public taxiServiceScreen() {

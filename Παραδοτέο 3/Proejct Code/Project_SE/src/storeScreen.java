@@ -1,6 +1,6 @@
-public class storeScreen  extends screen {
+public class storeScreen extends screen {
     //attributes
-
+    public static int storeStatus = 1;
 
     //constructor
 

@@ -1,5 +1,7 @@
 public class trafficPage extends screen{
+
     //attributes
+    public static int trafficStatus = 1;
 
     //constructor
     public trafficPage() {

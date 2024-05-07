@@ -17,16 +17,36 @@ public class defUser extends user{
         System.out.println("Choose between available screens:\nBuy Transportation Tickets,\n");
         System.out.println("View Transportation Routes,\n");
         System.out.println("Rent Parking Space,\n");
-        System.out.println("Insert New Parking,\n");
         System.out.println("Call Taxi,\n");
         System.out.println("Add Traffic Interrupt,\n");
-        System.out.println("Create Event,\n");
         System.out.println("View Event\n");
         Scanner page = new Scanner(System.in);
         pageName = page.nextLine();
         switch(pageName){
 
             case "Buy Transportation Tickets":
+            openStore();
+            break;
+
+            case "View Transportation Routes":
+            selectTs();
+            break;
+
+            case "Rent Parking Space":
+            rentParking();
+            break;
+
+            case "Call Taxi":
+            callTaxi();
+            break;
+
+            case "Add Traffic Interrupt":
+            openTrafficPage();
+            break;
+
+            case "View Event":
+            viewEvents();
+            break;
 
 
         }
@@ -50,11 +70,23 @@ public class defUser extends user{
     }
 
     public void callTaxi() {
-
+        menu Menu4 = new menu();
+        if(taxiServiceScreen.taxiStatus == 1){
+            Menu4.showAvailTrans();
+        }
+        else{
+            Menu4.notifyFail();
+        }
     }
 
     public void openTrafficPage() {
-
+        menu Menu5 = new menu();
+        if(trafficPage.trafficStatus == 1){
+            Menu5.showAvailTrans();
+        }
+        else{
+            Menu5.notifyFail();
+        }
     }
 
     public void compIntForm() {
@@ -66,7 +98,13 @@ public class defUser extends user{
     }
 
     public void viewEvents() {
-
+        menu Menu6 = new menu();
+        if(eventsListScreen.eventStatus == 1){
+            Menu6.showAvailTrans();
+        }
+        else{
+            Menu6.notifyFail();
+        }
     }
 
     public void pickEvent() {
@@ -86,6 +124,13 @@ public class defUser extends user{
     }
 
     public void openStore() {
+    menu Menu1 = new menu();
+    if(storeScreen.storeStatus == 1){
+        Menu1.showAvailTrans();
+    }
+    else{
+        Menu1.notifyFail();
+    }
 
     }
 
@@ -106,7 +151,10 @@ public class defUser extends user{
     }
 
     public void rentParking() {
-
+        menu Menu3 = new menu();
+        if(parkingRentScreen.rentStatus == 1){
+            Menu3.createAreaForm();
+        }
     }
 
     public void compAreaForm() {
@@ -130,7 +178,10 @@ public class defUser extends user{
     }
 
     public void selectTs() {
-
+        menu Menu2 = new menu();
+        if(transSystemsScreen.tsStatus == 1){
+            Menu2.showTs();
+        }
     }
 
     public void chooseTs() {

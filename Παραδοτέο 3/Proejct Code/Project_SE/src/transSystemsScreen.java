@@ -1,5 +1,6 @@
 public class transSystemsScreen extends screen {
     //attributes
+    public static int tsStatus = 1;
 
 
     //constructor

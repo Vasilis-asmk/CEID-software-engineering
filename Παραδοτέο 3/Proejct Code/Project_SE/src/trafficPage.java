@@ -38,5 +38,5 @@ public class trafficPage extends screen{
         System.out.println("Interrupt is now visible on map and on list");
     }
 
-    //getters and seters
+    //getters and setters
 }

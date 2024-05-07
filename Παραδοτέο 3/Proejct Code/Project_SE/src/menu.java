@@ -12,7 +12,9 @@ public class menu {
 
     public void createDestForm() {}
 
-    public void notify() {}
+    public void notifyFail() {
+        System.out.println("Page not available!");
+    }
 
     public void intDetForm() {}
 

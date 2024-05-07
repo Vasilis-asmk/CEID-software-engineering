@@ -1,19 +1,11 @@
 public class user {
+   //attributes
     private String username;
     private String email;
     private String password;
-    private int id;
 
 
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
+   //getters and setters
     public String getPassword() {
         return password;
     }

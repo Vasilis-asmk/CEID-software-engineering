@@ -19,7 +19,7 @@ public class municipalEmp extends user{
 
     public void eventDenial() {}
 
-    public void rentAccept() { System.out.println("Parking space accepted!"); }
+    public void rentAccept() {}
 
     public void insertAccept() {}
 

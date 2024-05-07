@@ -1,9 +1,9 @@
 public class event {
     //attributes
     private int eventId;
-    private string eventName;
-    private string eventDate;
-    private string eventLocation;
+    private String eventName;
+    private String eventDate;
+    private String eventLocation;
 
     //constructor
 
@@ -24,28 +24,28 @@ public class event {
     }
 
 
-    public string getEventName() {
+    public String getEventName() {
         return eventName;
     }
 
-    public void setEventName(string eventName) {
+    public void setEventName(String eventName) {
         this.eventName = eventName;
     }
 
-    public string getEventDate() {
+    public String getEventDate() {
         return eventDate;
     }
 
-    public void setEventDate(string eventDate) {
+    public void setEventDate(String eventDate) {
         this.eventDate = eventDate;
     }
 
 
-    public string getEventLocation() {
+    public String getEventLocation() {
         return eventLocation;
     }
 
-    public void setEventLocation(string eventLocation) {
+    public void setEventLocation(String eventLocation) {
         this.eventLocation = eventLocation;
     }
 }

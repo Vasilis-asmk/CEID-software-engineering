@@ -15,7 +15,9 @@ public class transSystemsScreen extends screen {
 
     public void showRoute() {}
 
-    public void notify() {}
+    public void notifyRoute() {
+        System.out.println("There is no available route for chosen itinerary!");
+    }
 
     public void calcRoute() {}
 

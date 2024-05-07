@@ -1,14 +1,37 @@
+import java.util.Scanner;
+
 public class defUser extends user{
     //atttrinutes
     private String name;
     private String surname;
+    private int defUserId;
 
     //constuctor
-    public defUser() {
+    public defUser(String name,String surname,int id) {
     }
 
 
     //methods
+    public void chooseScreen() {
+        String pageName;
+        System.out.println("Choose between available screens:\nBuy Transportation Tickets,\n");
+        System.out.println("View Transportation Routes,\n");
+        System.out.println("Rent Parking Space,\n");
+        System.out.println("Insert New Parking,\n");
+        System.out.println("Call Taxi,\n");
+        System.out.println("Add Traffic Interrupt,\n");
+        System.out.println("Create Event,\n");
+        System.out.println("View Event\n");
+        Scanner page = new Scanner(System.in);
+        pageName = page.nextLine();
+        switch(pageName){
+
+            case "Buy Transportation Tickets":
+                
+
+        }
+    }
+
     public void compDestForm() {
 
     }
@@ -131,6 +154,14 @@ public class defUser extends user{
     }
 
     //getters and setters
+
+    public int getDefUserId() {
+        return defUserId;
+    }
+
+    public void setDefUserId(int defUserId) {
+        this.defUserId = defUserId;
+    }
 
     public String getName() {
         return name;

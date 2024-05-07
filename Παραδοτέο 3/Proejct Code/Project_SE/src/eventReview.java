@@ -1,8 +1,8 @@
 public class eventReview {
     //attributes
     public int eventRevId;
-    public string eventRevTitle;
-    public string eventRevText;
+    public String eventRevTitle;
+    public String eventRevText;
     public int eventRevScore;
 
     //constructor
@@ -24,20 +24,20 @@ public class eventReview {
     }
 
 
-    public string getEventRevTitle() {
+    public String getEventRevTitle() {
         return eventRevTitle;
     }
 
-    public void setEventRevTitle(string eventRevTitle) {
+    public void setEventRevTitle(String eventRevTitle) {
         this.eventRevTitle = eventRevTitle;
     }
 
 
-    public string getEventRevText() {
+    public String getEventRevText() {
         return eventRevText;
     }
 
-    public void setEventRevText(string eventRevText) {
+    public void setEventRevText(String eventRevText) {
         this.eventRevText = eventRevText;
     }
 

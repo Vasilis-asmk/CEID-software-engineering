@@ -5,7 +5,7 @@ public class bank {
     //constructor
 
 
-    public bank() {
+    bank() {
     }
 
     //methods

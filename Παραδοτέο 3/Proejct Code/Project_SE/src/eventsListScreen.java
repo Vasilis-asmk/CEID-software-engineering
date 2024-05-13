@@ -1,6 +1,6 @@
 public class eventsListScreen extends screen {
     //attributes
-    public static int eventStatus = 1;
+    public static int eventStatus = 0;
 
 
     //constructor

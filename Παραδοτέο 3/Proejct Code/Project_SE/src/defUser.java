@@ -20,6 +20,7 @@ public class defUser extends user{
         System.out.println("Call Taxi,\n");
         System.out.println("Add Traffic Interrupt,\n");
         System.out.println("View Event\n");
+        System.out.println("  ");
         Scanner page = new Scanner(System.in);
         pageName = page.nextLine();
         switch(pageName){
@@ -48,6 +49,9 @@ public class defUser extends user{
             viewEvents();
             break;
 
+            default:
+                System.out.println("Incorrect");
+
 
         }
     }
@@ -61,7 +65,7 @@ public class defUser extends user{
     }
 
     public void compDataForm() {
-
+        System.out.println("User has filled in his transaction data");
     }
 
 
@@ -72,7 +76,7 @@ public class defUser extends user{
     public void callTaxi() {
         menu Menu4 = new menu();
         if(taxiServiceScreen.taxiStatus == 1){
-            Menu4.showAvailTrans();
+            Menu4.createDestForm();
         }
         else{
             Menu4.notifyFail();
@@ -82,7 +86,7 @@ public class defUser extends user{
     public void openTrafficPage() {
         menu Menu5 = new menu();
         if(trafficPage.trafficStatus == 1){
-            Menu5.showAvailTrans();
+            Menu5.intDetForm();
         }
         else{
             Menu5.notifyFail();
@@ -100,7 +104,7 @@ public class defUser extends user{
     public void viewEvents() {
         menu Menu6 = new menu();
         if(eventsListScreen.eventStatus == 1){
-            Menu6.showAvailTrans();
+            Menu6.showEventList();
         }
         else{
             Menu6.notifyFail();
@@ -135,7 +139,14 @@ public class defUser extends user{
     }
 
     public void chooseProduct() {
-
+        Scanner product = new Scanner(System.in);
+        String productName = product.nextLine();
+        if (productName == null)
+            System.out.println("Incomplete Field");
+        else {
+            storeScreen store1 = new storeScreen();
+            store1.showDataForm();
+        }
     }
 
     public void compMisPayData() {
@@ -203,6 +214,8 @@ public class defUser extends user{
     public void chooseStop() {
 
     }
+
+
 
     //getters and setters
 

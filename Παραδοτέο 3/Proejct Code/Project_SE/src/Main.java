@@ -2,7 +2,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        createUser();
+       // createUser();
+
+        defUser user1 = new defUser("name", "surname", 15);
+        user1.chooseScreen();
     }
 
     public static void createUser(){

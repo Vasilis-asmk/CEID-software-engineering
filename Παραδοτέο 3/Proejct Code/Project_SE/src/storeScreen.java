@@ -4,17 +4,23 @@ public class storeScreen extends screen {
 
     //constructor
 
-    public storeScreen() {
+    storeScreen() {
     }
 
 
     // methods
 
-    public void showDataForm() {}
+    public void showDataForm() {
+        System.out.println("Fill in your transaction data: ");
+    }
 
-    public void checkData() {}
+    public void checkData() {
+        System.out.println("Proccesing Data");
+    }
 
-    public void showPayForm() {}
+    public void showPayForm() {
+        System.out.println("Fill in your payment data: ");
+    }
 
     public void showMisData() {}
 

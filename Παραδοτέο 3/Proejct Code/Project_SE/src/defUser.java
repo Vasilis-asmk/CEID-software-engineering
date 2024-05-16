@@ -168,9 +168,7 @@ public class defUser extends user{
         }
     }
 
-    public void compAreaForm() {
-
-    }
+    public void compAreaForm() { System.out.println("User has filled the area form");}
 
     public void selectPrivateParking() {
         System.out.println("Private Parking Selected");
@@ -180,13 +178,9 @@ public class defUser extends user{
         System.out.println("Public Parking Selected");
     }
 
-    public void selectParking() {
+    public void selectParking() { System.out.println("User has selected the parking which prefers."); }
 
-    }
-
-    public void compDataAndPayWayForm() {
-
-    }
+    public void compDataAndPayWayForm() { System.out.println("User has filled in the data");}
 
     public void selectTs() {
         menu Menu2 = new menu();

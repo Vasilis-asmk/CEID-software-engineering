@@ -9,7 +9,7 @@ public class bank {
     }
 
     //methods
-
+    public void reqTransAcc(){}
 
     //getters and setters
 

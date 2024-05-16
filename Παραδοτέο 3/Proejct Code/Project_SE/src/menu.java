@@ -11,7 +11,7 @@ public class menu {
     // methods
 
     public void createDestForm() {
-        System.out.println("Dest Form");
+        System.out.println("Destination Form");
     }
 
     public void notifyFail() {
@@ -23,7 +23,7 @@ public class menu {
     }
 
     public void createEventForm() {
-        System.out.println("Parking Details");
+        System.out.println("Event Form");
     }
 
     public void showEventList() {
@@ -42,7 +42,7 @@ public class menu {
         System.out.println("Monthly Tram Card");
     }
 
-    public void createAreaForm() {}
+    public void createAreaForm() { System.out.println("Area Form"); }
 
     public void showTs() {
         System.out.println("Routes");

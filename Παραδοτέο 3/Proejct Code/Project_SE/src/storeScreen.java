@@ -15,7 +15,7 @@ public class storeScreen extends screen {
     }
 
     public void checkData() {
-        System.out.println("Proccesing Data");
+        System.out.println("Processing Data");
     }
 
     public void showPayForm() {

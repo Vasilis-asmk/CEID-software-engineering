@@ -35,5 +35,12 @@ public class eventsListScreen extends screen {
 
 
     //getters and setters
-    
+
+    public static int getEventStatus() {
+        return eventStatus;
+    }
+
+    public static void setEventStatus(int eventStatus) {
+        eventsListScreen.eventStatus = eventStatus;
+    }
 }

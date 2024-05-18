@@ -18,9 +18,9 @@ public class taxiServiceScreen extends screen{
 
     public void renotifyTaxi() {}
 
-    public void showDataForm() {}
+    public void showPayDataForm() {}
 
-    public void checkDataForm() {}
+    public void checkPayDataForm() {}
 
     public void notifyBank() {}
 
@@ -34,4 +34,11 @@ public class taxiServiceScreen extends screen{
 
     //getters and setters
 
+    public static int getTaxiStatus() {
+        return taxiStatus;
+    }
+
+    public static void setTaxiStatus(int taxiStatus) {
+        taxiServiceScreen.taxiStatus = taxiStatus;
+    }
 }

@@ -15,7 +15,7 @@ public class parkingRentScreen extends screen{
 
     public void showDataForm() { System.out.println("Fill in your data: "); }
 
-    public void notifyMunicipalEmployee() {}
+    public void notifyMunicipalEmployee() { System.out.println("Notify municipal employee about renting request"); }
 
     public void acceptInform() { System.out.println("Parking renting was accepted!"); }
 
@@ -25,11 +25,11 @@ public class parkingRentScreen extends screen{
         System.out.println("There is no available space in the specific parking lot! Select another parking lot:");
     }
 
-    public void checkDataPayWayForm() {}
+    public void checkDataPayWayForm() { System.out.println("Processing Data"); }
 
-    public void notifyParking() {}
+    public void notifyParking() { System.out.println("Notify parking employee about renting request"); }
 
-    public void showMisData() { System.out.println("The are missing fields!"); }
+    public void showMisData() { System.out.println("Show missing data of form:"); }
 
     public void rejInform() {
         System.out.println("Parking renting was not accepted by parking employee! Select another parking lot:");
@@ -37,11 +37,11 @@ public class parkingRentScreen extends screen{
 
     public void showPayDataForm() { System.out.println("Pay Data form"); }
 
-    public void checkPayDataForm() {}
+    public void checkPayDataForm() { System.out.println("Processing Payment Data"); }
 
-    public void notifyBank() {}
+    public void notifyBank() { System.out.println("Notify bank about transaction"); }
 
-    public void showWrongData() {}
+    public void showWrongData() { System.out.println("Show wrong data of payment form:"); }
 
     public void successfulRenting() { System.out.println("Parking renting was accepted!"); }
 
@@ -49,4 +49,11 @@ public class parkingRentScreen extends screen{
 
     //getters and setters
 
+    public static int getRentStatus() {
+        return rentStatus;
+    }
+
+    public static void setRentStatus(int rentStatus) {
+        parkingRentScreen.rentStatus = rentStatus;
+    }
 }

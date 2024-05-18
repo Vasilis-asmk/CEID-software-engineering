@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="909cb6df-c94e-43b9-a9f2-fd85f7b00ede" name="Changes" comment="Changes">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/defUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/defUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eventsListScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eventsListScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/insertionOfNewParking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/insertionOfNewParking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/municipalEmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/municipalEmp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parkingEmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parkingEmp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parkingRentScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parkingRentScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/storeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/storeScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/taxiServiceScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/taxiServiceScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trafficPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trafficPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transSystemsScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transSystemsScreen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

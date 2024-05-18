@@ -9,7 +9,7 @@ public class bank {
     }
 
     //methods
-    public void reqTransAcc(){}
+    public void reqTransAcc(){ System.out.println("Please accept transaction:"); }
 
     //getters and setters
 

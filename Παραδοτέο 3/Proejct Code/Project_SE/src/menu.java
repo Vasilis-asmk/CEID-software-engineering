@@ -48,6 +48,9 @@ public class menu {
         System.out.println("Routes");
     }
 
+    public void createDataForm() {
+        System.out.println("Fill in the data: ");
+    }
 
     //getters and setters
 

@@ -41,4 +41,12 @@ public class trafficPage extends screen{
     }
 
     //getters and setters
+
+    public static int getTrafficStatus() {
+        return trafficStatus;
+    }
+
+    public static void setTrafficStatus(int trafficStatus) {
+        trafficPage.trafficStatus = trafficStatus;
+    }
 }

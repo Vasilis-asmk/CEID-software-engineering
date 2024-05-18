@@ -19,11 +19,11 @@ public class municipalEmp extends user{
 
     public void eventDenial() {}
 
-    public void rentAccept() { System.out.println("The municipal employee accepted the request!"); }
+    public void rentAccept() { System.out.println("The municipal employee accepted the renting request!"); }
 
-    public void insertAccept() {}
+    public void insertAccept() { System.out.println("The municipal employee accepted the insertion request!"); }
 
-    public void insertNotAccept() {}
+    public void insertNotAccept() { System.out.println("The municipal employee did not accept the insertion request!");}
 
 
     //getters and setters

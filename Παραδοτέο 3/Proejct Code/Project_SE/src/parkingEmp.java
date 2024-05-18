@@ -17,32 +17,24 @@ public class parkingEmp extends user{
     }
 
     public void insertionOfNewParking() {
-
+        System.out.println("User selected the insertion of new parking page.");
     }
 
-    public void selectPrivateParking() {
+    public void selectPrivateParking() { System.out.println("Private Parking Selected"); }
 
-    }
+    public void compPayWayForm() { System.out.println("User has filled in the pay way form"); }
 
-    public void compPayWayForm() {
+    public void selectPublicParking() {  System.out.println("Public Parking Selected"); }
 
-    }
+    public void compSubscriptionForm() {  System.out.println("User has filled in the subscription form"); }
 
-    public void selectPublicParking() {
-
-    }
-
-    public void compSubscriptionForm() {
-
-    }
-
-    public void compPayDataForm() {
-
-    }
+    public void compPayDataForm() { System.out.println("User has filled in his payment data"); }
 
     public void acceptTrans() {
         System.out.println("Transaction Accepted!");
     }
+
+    public void compDataForm() { System.out.println("User has filled in the data"); }
 
     //getters and setters
 }

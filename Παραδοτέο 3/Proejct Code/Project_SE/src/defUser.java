@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
 public class defUser extends user{
-    //atttrinutes
+    //attributes
     private String name;
     private String surname;
     private int defUserId;
 
-    //constuctor
+    //constructor
     public defUser(String name,String surname,int id) {
     }
 
@@ -65,7 +65,7 @@ public class defUser extends user{
     }
 
     public void compDataForm() {
-        System.out.println("User has filled in his transaction data");
+        System.out.println("User has filled in his data");
     }
 
 
@@ -98,7 +98,7 @@ public class defUser extends user{
     }
 
     public void compMisData() {
-
+        System.out.println("User has filled in missing data");
     }
 
     public void viewEvents() {
@@ -124,7 +124,7 @@ public class defUser extends user{
     }
 
     public void compPayDataForm() {
-
+        System.out.println("User has filled in his payment data");
     }
 
     public void openStore() {
@@ -150,11 +150,11 @@ public class defUser extends user{
     }
 
     public void compMisPayData() {
-
+        System.out.println("User has filled in missing payment data");
     }
 
     public void compWrongData() {
-
+        System.out.println("User has filled in wrong payment data");
     }
 
     public void acceptTrans() {
@@ -190,7 +190,7 @@ public class defUser extends user{
     }
 
     public void chooseTs() {
-
+        System.out.println("User has chosen the desired transportation system.");
     }
 
     public void chooseDetIti() {
@@ -198,15 +198,15 @@ public class defUser extends user{
     }
 
     public void chooseRoute() {
-
+        System.out.println("User has chosen desired route.");
     }
 
     public void sysChooseRoute() {
-        System.out.println("Allow system to choose best route");
+        System.out.println("User allowed the system to choose the best route.");
     }
 
     public void chooseStop() {
-
+        System.out.println("User selects desired stop on route.");
     }
 
 

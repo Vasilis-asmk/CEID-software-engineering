@@ -7,11 +7,11 @@ public class taxi extends user{
 
     //methods
     public void rideAccept() {
-
+        System.out.println("Driver accepted the ride.");
     }
 
     public void notAccept() {
-
+        System.out.println("Drive rejected the ride");
     }
 
 

@@ -8,33 +8,23 @@ public class trafficPage extends screen{
     }
 
     //methods
-    public void checkIntForm() {
-
-    }
+    public void checkIntForm() {System.out.println("Processing interrupt data"); }
 
     public void notifiyEmp() {
         System.out.println("Notify employee about traffic interrupt");
     }
 
-    public void shopMisData() {
-
-    }
+    public void showMisData() { System.out.println("Show missing data of interrupt form");}
 
     public void notifyRej() {
-        System.out.println("Interrupt has been rejected by an employee");
-    }
+        System.out.println("Interrupt has been rejected by an employee"); }
 
     public void notifyAcc() {
-        System.out.println("Interrupt has been accepted by an employee");
-    }
+        System.out.println("Interrupt has been accepted by an employee"); }
 
-    public void shareInt() {
+    public void shareInt() { System.out.println("The interrupt has been shared in the map"); }
 
-    }
-
-    public void showIntList() {
-
-    }
+    public void showIntList() {  System.out.println("Interrupt list"); }
 
     public void sendConfirm() {
         System.out.println("Interrupt is now visible on map and on list");

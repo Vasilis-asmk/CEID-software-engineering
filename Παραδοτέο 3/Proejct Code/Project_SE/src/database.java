@@ -10,7 +10,6 @@ public class database {
 
     //methods
 
-
     //getters and setters
 
 }

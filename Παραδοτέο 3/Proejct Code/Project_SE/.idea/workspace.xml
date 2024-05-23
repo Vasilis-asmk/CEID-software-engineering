@@ -4,49 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="909cb6df-c94e-43b9-a9f2-fd85f7b00ede" name="Changes" comment="Changes">
+    <list default="true" id="6f8b905c-6c93-4fbc-a397-0a47ccb1cc80" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project_SE/dbConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dbConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/defUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/defUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/taxi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/taxi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/taxiServiceScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/taxiServiceScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_SE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/database.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/defUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/defUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/event.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/event.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/eventCreationScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/eventCreationScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/eventOrganizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/eventOrganizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/eventReview.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/eventReview.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/eventsListScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/eventsListScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/insertionOfNewParking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/insertionOfNewParking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/map.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/map.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/municipalEmp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/municipalEmp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/parking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/parking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/parkingEmp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/parkingEmp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/parkingRentScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/parkingRentScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/prParking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/prParking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/puParking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/puParking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/screen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/screen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/storeScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/storeScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/taxi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/taxi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/taxiServiceScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/taxiServiceScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/trafficPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/trafficPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/transSystemsScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/transSystemsScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/user.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/user.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/insertionOfNewParking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/insertionOfNewParking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parkingEmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parkingEmp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trafficPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trafficPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Pantelis190&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Vasilis-asmk/CEID-software-engineering.git&quot;,
-    &quot;accountId&quot;: &quot;369dacb6-6f5c-4ab1-93ca-bbfbb950275f&quot;
-  }
-}</component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 4
+  &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2foc4NEmXKZerDLGGppZ03kjCfJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2gre1YWqgCXrVgGZNEx4x6vN24A" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,48 +66,18 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Project_SE" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="909cb6df-c94e-43b9-a9f2-fd85f7b00ede" name="Changes" comment="" />
-      <created>1714470679980</created>
+      <changelist id="6f8b905c-6c93-4fbc-a397-0a47ccb1cc80" name="Changes" comment="" />
+      <created>1716459912742</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1714470679980</updated>
-      <workItem from="1714824768307" duration="114000" />
-      <workItem from="1714825372819" duration="41000" />
-      <workItem from="1714825441731" duration="30000" />
+      <updated>1716459912742</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

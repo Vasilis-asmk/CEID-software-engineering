@@ -4,8 +4,10 @@ public class Main {
     public static void main(String[] args) {
        // createUser();
 
-        defUser user1 = new defUser("name", "surname", 15);
-        user1.chooseScreen();
+      //  defUser user1 = new defUser("name", "surname", 15);
+        //user1.chooseScreen();
+        parkingEmp parkemp = new parkingEmp();
+        parkemp.acceptTrans();
     }
 
     public static void createUser(){

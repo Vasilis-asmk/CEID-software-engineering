@@ -16,7 +16,7 @@ public class trafficPage extends screen{
         System.out.println("Notify employee about traffic interrupt");
     }
 
-    public void shopMisData() {
+    public void showMisData() {
 
     }
 

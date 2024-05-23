@@ -5,44 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f8b905c-6c93-4fbc-a397-0a47ccb1cc80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0_33.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Project_SE/dbConnection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dbConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_SE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Project_SE.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/admin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/bank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/defUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/defUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/event.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/eventCreationScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/eventCreationScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/eventOrganizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/eventOrganizer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/eventReview.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/eventReview.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/eventsListScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/eventsListScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/insertionOfNewParking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/insertionOfNewParking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/map.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/map.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/municipalEmp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/municipalEmp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/parking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/parking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/parkingEmp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/parkingEmp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/parkingRentScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/parkingRentScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/prParking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/prParking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/puParking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/puParking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/screen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/screen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/storeScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/storeScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/taxi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/taxi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/taxiServiceScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/taxiServiceScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/trafficPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/trafficPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/transSystemsScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/transSystemsScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_SE/user.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_SE/user.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/insertionOfNewParking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/insertionOfNewParking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parkingEmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parkingEmp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trafficPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trafficPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eventCreationScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eventCreationScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eventOrganizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eventOrganizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/municipalEmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/municipalEmp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +18,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -60,15 +29,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -79,5 +49,16 @@
       <updated>1716459912742</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -15,9 +15,13 @@ public class municipalEmp extends user{
 
     public void rejectInt() {System.out.println("The municipal employee rejected the interrupt");}
 
-    public void eventAccept() {}
+    public void eventAccept() {
+        System.out.println("Municipal employee has accepted the event.");
+    }
 
-    public void eventDenial() {}
+    public void eventDenial() {
+        System.out.println("Municipal employee has rejected the event.");
+    }
 
     public void rentAccept() { System.out.println("The municipal employee accepted the renting request!"); }
 

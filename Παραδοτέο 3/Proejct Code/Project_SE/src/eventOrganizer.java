@@ -7,11 +7,12 @@ public class eventOrganizer extends user{
 
     //methods
     public void createEvent() {
-
+        menu menu7 = new menu();
+        menu7.createEventForm();
     }
 
     public void compEventForm() {
-
+        System.out.println("Event organizer has fillen in the event form.");
     }
 
     //getters and setters

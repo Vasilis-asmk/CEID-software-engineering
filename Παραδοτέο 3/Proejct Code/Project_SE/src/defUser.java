@@ -93,9 +93,7 @@ public class defUser extends user{
         }
     }
 
-    public void compIntForm() {
-
-    }
+    public void compIntForm() {System.out.println("User has filled in the interrupt form"); }
 
     public void compMisData() {
         System.out.println("User has filled in missing data");

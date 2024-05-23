@@ -11,9 +11,9 @@ public class municipalEmp extends user{
     }
 
     //methods
-    public void acceptInt() {}
+    public void acceptInt() {System.out.println("The municipal employee accepted the interrupt");}
 
-    public void rejectInt() {}
+    public void rejectInt() {System.out.println("The municipal employee rejected the interrupt");}
 
     public void eventAccept() {}
 

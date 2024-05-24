@@ -31,10 +31,14 @@ public class eventCreationScreen extends screen {
     }
 
     public void createEvent() {
+
         System.out.println("Event has been accepted and created.");
+        insertIntoDbase();
     }
 
-    public void instertIntoTheDBase() {
+    public void insertIntoDbase() {
+        dbConnection event_insertion = new dbConnection();
+        event_insertion.events(1 ,"event.title","25/06/2024 18:00",50,"name","event.location","event.street",15);
         System.out.println("Event has been inserted to the database.");
     }
 

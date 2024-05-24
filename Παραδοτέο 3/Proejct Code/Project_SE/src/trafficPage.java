@@ -26,6 +26,7 @@ public class trafficPage extends screen{
 
     public void notifyAcc() {
         System.out.println("Interrupt has been accepted by an employee");
+        insertIntoDbase();
     }
 
     public void shareInt() {
@@ -38,6 +39,12 @@ public class trafficPage extends screen{
 
     public void sendConfirm() {
         System.out.println("Interrupt is now visible on map and on list");
+    }
+
+    public void insertIntoDbase(){
+        dbConnection interrupt_insertion = new dbConnection();
+        interrupt_insertion.interrupt(1, "location","street","reason","20/06/24 17:00");
+        System.out.println("Interrupt has been inserted to the database.");
     }
 
     //getters and setters

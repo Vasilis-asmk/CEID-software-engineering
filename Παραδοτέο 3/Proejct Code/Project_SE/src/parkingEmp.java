@@ -32,8 +32,8 @@ public class parkingEmp extends user{
 
     public void acceptTrans() {
         System.out.println("Transaction Accepted!");
-        insertionOfNewParking insertion2 = new insertionOfNewParking();
-        insertion2.insertIntoTheDbase();
+        insertionOfNewParking parking_insertion = new insertionOfNewParking();
+        parking_insertion.insertIntoDbase();
     }
 
     public void compDataForm() { System.out.println("User has filled in the data"); }

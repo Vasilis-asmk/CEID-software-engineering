@@ -3,6 +3,8 @@ public class taxi extends user{
 
     //attributes
     private int taxiId;
+    private String name;
+    private String surname;
 
 
     //methods

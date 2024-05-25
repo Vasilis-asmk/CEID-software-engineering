@@ -1,7 +1,9 @@
 public class parkingEmp extends user{
 
     //attributes
-
+    private String name;
+    private String surname;
+    private String empDate;
 
     //constructor
     public parkingEmp() {

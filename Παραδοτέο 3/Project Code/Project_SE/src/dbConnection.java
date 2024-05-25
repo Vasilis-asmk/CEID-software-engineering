@@ -15,7 +15,6 @@ public class dbConnection {
     String invoice;
     int parkSpaces;
     String parkType;
-    int code;
     String title;
     String dateTime;
     int capacity;
@@ -23,7 +22,6 @@ public class dbConnection {
     String location;
     String eventStreet;
     int eventNumber;
-    int interruptCode;
     String interruptLocation;
     String interruptStreet;
     String interruptReason;

@@ -12,7 +12,7 @@ public class trafficPage extends screen{
 
     }
 
-    public void notifiyEmp() {
+    public void notifyEmp() {
         System.out.println("Notify employee about traffic interrupt");
     }
 

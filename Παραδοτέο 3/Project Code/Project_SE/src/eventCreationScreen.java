@@ -1,10 +1,37 @@
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 public class eventCreationScreen extends screen {
+    private JTextField title;
+    private JTextField starts;
+    private JTextField ends;
+    private JTextField location;
+    private JTextField typeOfEvent;
+    private JButton add;
+    private JTextField moreInform;
+    private JLabel titleLabel;
+    private JLabel endsLabel;
+    private JLabel locationLabel;
+    private JLabel typeOfEventLabel;
+    private JLabel moreInformLabel;
+    private JLabel todayLabel;
+    private JLabel patrasLabel;
+    private JLabel eventsLabel;
+    private JLabel newEventLabel;
+    private JLabel start;
     //attributes
 
 
     //constructor
 
     public eventCreationScreen() {
+        add.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
     }
 
 

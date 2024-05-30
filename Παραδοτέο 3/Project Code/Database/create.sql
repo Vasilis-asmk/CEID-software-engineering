@@ -100,10 +100,9 @@ CREATE TABLE events (
 	title VARCHAR(25) NOT NULL,
 	event_datetime VARCHAR(25) NOT NULL,
 	capacity INT(11) NOT NULL,
-	organizer_name VARCHAR(25) NOT NULL,
-    location VARCHAR(30) NOT NULL,
-	event_street VARCHAR(30) NOT NULL,
-    event_number INT(4) NOT NULL,
+    `	location VARCHAR(30) NOT NULL,
+	event_type VARCHAR(30) NOT NULL,
+	event_info VARCHAR(30) NOT NULL,
 	PRIMARY KEY(event_code)
 );
 

@@ -18,10 +18,9 @@ public class dbConnection {
     String title;
     String dateTime;
     int capacity;
-    String organiserName;
     String location;
-    String eventStreet;
-    int eventNumber;
+    String eventType;
+    String eventInfo;
     String interruptLocation;
     String interruptStreet;
     String interruptReason;
@@ -75,28 +74,26 @@ public class dbConnection {
 
     }
 
-    public void events(String title, String dateTime, int capacity, String organiserName, String location, String eventStreet, int eventNumber) {
+    public void events(String title, String dateTime, int capacity, String location, String eventType, String eventInfo) {
 
         this.title = title;
         this.dateTime = dateTime;
         this.capacity = capacity;
-        this.organiserName = organiserName;
         this.location = location;
-        this.eventStreet = eventStreet;
-        this.eventNumber = eventNumber;
+        this.eventType = eventType;
+        this.eventInfo = eventInfo;
 
         try {
             Connection connection = DriverManager.getConnection(DB_URL, "root", "pass");
 
-            String sql = "insert into events (title, event_datetime, capacity, organizer_name, location, event_street, event_number) VALUES (?, ?, ?, ?, ?, ?, ?)";
+            String sql = "insert into events (title, event_datetime, capacity, location, event_type, event_info) VALUES (?, ?, ?, ?, ?, ?)";
             PreparedStatement ps = connection.prepareStatement(sql);
             ps.setString(1, title);
             ps.setString(2, dateTime);
             ps.setInt(3, capacity);
-            ps.setString(4, organiserName);
-            ps.setString(5, location);
-            ps.setString(6, eventStreet);
-            ps.setInt(7, eventNumber);
+            ps.setString(4, location);
+            ps.setString(5, eventType);
+            ps.setString(6, eventInfo);
 
             ps.executeUpdate();
 

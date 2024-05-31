@@ -1,7 +1,6 @@
 public class menu {
     //attributes
 
-
     //constructor
 
     public menu() {
@@ -33,6 +32,7 @@ public class menu {
     public void noAvailEvent() {}
 
     public void showAvailTrans() {
+
         System.out.println("Choose between the following products: ");
         System.out.println("Bus Ticket");
         System.out.println("Train Ticket");

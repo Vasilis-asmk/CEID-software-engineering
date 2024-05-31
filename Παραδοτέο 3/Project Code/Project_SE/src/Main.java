@@ -2,21 +2,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // createUser();
-        // defUser user1 = new defUser("name", "surname", 15);
+        //defUser user1 = new defUser("name", "surname", 15);
         //user1.chooseScreen();
+        eventCreation();
 
-        /* parkingEmp parkemp = new parkingEmp();
-        parkemp.acceptTrans();
-
-        eventCreationScreen event_creation = new eventCreationScreen();
-        event_creation.createEvent();
-
-        trafficPage interrupt_insert = new trafficPage();
-        interrupt_insert.notifyAcc(); */
-
-
-
+         parkingEmp parkemp = new parkingEmp();
     }
 
     public static void createUser(){
@@ -33,6 +23,17 @@ public class Main {
         id = defUser.nextInt();
 
         defUser user1 = new defUser(name,surname,id);
+        user1.chooseScreen();
+    }
+
+    public static void eventCreation() {
+        eventCreationScreen screen1 = new eventCreationScreen();
+        screen1.createEventForm();
+    }
+
+    public static void formCompletion() {
+        registerForm screen2 = new registerForm();
+        screen2.createRegisterForm();
     }
 
 }

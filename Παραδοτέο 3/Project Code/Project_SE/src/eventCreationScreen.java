@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class eventCreationScreen extends JFrame {
+public class eventCreationScreen extends screen {
     private JTextField title;
     private JTextField starts;
     private JTextField location;
@@ -43,7 +43,7 @@ public class eventCreationScreen extends JFrame {
         });
     }
 
-    public static void main(String[] args) {
+     public void createEventForm() {
         eventCreationScreen scr1 = new eventCreationScreen();
         scr1.setContentPane(scr1.Panel1);
         scr1.setVisible(true);

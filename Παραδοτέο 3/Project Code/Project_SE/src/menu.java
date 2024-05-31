@@ -42,7 +42,11 @@ public class menu {
         System.out.println("Monthly Tram Card");
     }
 
-    public void createAreaForm() { System.out.println("Area Form"); }
+    public void createAreaForm() {
+        System.out.println("Area Form");
+        defUser defUser_rent = new defUser("name", "surname", 15);
+        defUser_rent.compAreaForm();
+    }
 
     public void showTs() {
         System.out.println("Routes");

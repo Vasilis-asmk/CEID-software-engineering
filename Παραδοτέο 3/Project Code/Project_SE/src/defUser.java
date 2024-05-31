@@ -168,6 +168,8 @@ public class defUser extends user{
 
     public void compAreaForm() {
         System.out.println("User has filled the area form");
+        parkingRentScreen parkRentScreen = new parkingRentScreen();
+        parkRentScreen.chooseParkingType();
     }
 
     public void selectPrivateParking() {

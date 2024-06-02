@@ -3,7 +3,6 @@ import java.sql.*;
 public class dbConnection {
 
     //attributes
-    int parkCode;
     String ownerFname;
     String email;
     String phone;

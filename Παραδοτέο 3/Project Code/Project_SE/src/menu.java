@@ -44,8 +44,6 @@ public class menu {
 
     public void createAreaForm() {
         System.out.println("Area Form");
-        defUser defUser_rent = new defUser("name", "surname", 15);
-        defUser_rent.compAreaForm();
     }
 
     public void showTs() {

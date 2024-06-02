@@ -25,6 +25,13 @@ public class dbConnection {
     String interruptStreet;
     String interruptReason;
     String interruptDateTime;
+    String username;
+    String userEmail;
+    String userPass;
+    String userName;
+    String userPassword;
+
+
 
     private static final String dBURL = "jdbc:mysql://localhost:3306/city_verse";
 
@@ -46,7 +53,7 @@ public class dbConnection {
 
 
         try {
-            Connection connection = DriverManager.getConnection(DB_URL, "root", "pass");
+            Connection connection = DriverManager.getConnection(dBURL, "root", "pass");
 
             String sql = "insert into parking (owner_fname, email, phone_number, brand, park_street, park_number, post_code, afm, invoice, park_spaces, park_type) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
             PreparedStatement ps = connection.prepareStatement(sql);
@@ -84,7 +91,7 @@ public class dbConnection {
         this.eventInfo = eventInfo;
 
         try {
-            Connection connection = DriverManager.getConnection(DB_URL, "root", "pass");
+            Connection connection = DriverManager.getConnection(dBURL, "root", "pass");
 
             String sql = "insert into events (title, event_datetime, capacity, location, event_type, event_info) VALUES (?, ?, ?, ?, ?, ?)";
             PreparedStatement ps = connection.prepareStatement(sql);
@@ -107,8 +114,6 @@ public class dbConnection {
 
     }
 
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/city_verse";
-
     public void interrupt(String interruptLocation, String interruptStreet,String interruptReason,String interruptDateTime) {
 
         this.interruptLocation = interruptLocation;
@@ -117,7 +122,7 @@ public class dbConnection {
         this.interruptDateTime = interruptDateTime;
 
         try {
-            Connection connection = DriverManager.getConnection(DB_URL, "root", "pass");
+            Connection connection = DriverManager.getConnection(dBURL, "root", "pass");
 
             String sql = "insert into interrupts (int_location, int_street, int_reason, int_datetime) VALUES (?, ?, ?, ?)";
             PreparedStatement ps = connection.prepareStatement(sql);
@@ -138,8 +143,61 @@ public class dbConnection {
 
     }
 
+    public void userInsert(String username, String userEmail,String userPass) {
+
+        this.username = username;
+        this.userEmail = userEmail;
+        this.userPass = userPass;
+
+        try {
+            Connection connection = DriverManager.getConnection(dBURL, "root", "pass");
+
+            String sql = "insert into user (username, user_email, user_pass) VALUES (?, ?, ?)";
+            PreparedStatement ps = connection.prepareStatement(sql);
+            ps.setString(1, username);
+            ps.setString(2, userEmail);
+            ps.setString(3, userPass);
+            ps.executeUpdate();
+
+        }
+
+        catch (Exception e) {
+
+            // Print the exception
+            System.out.println(e);
+        }
+
+    }
+
+    public void userSelect(String userName,String userPassword) {
+
+        this.userName = userName;
+        this.userPassword = userPassword;
+
+        try {
+            Connection connection = DriverManager.getConnection(dBURL, "root", "pass");
+            Statement statement = connection.createStatement();
+            String sql= "SELECT * FROM user where username = ? AND user_pass = ?";
 
 
+            PreparedStatement ps = connection.prepareStatement(sql);
+            ps.setString(1, userName);
+            ps.setString(2, userPassword);
+            ResultSet resultSet = ps.executeQuery();
+
+            if (resultSet.next()) {
+                System.out.println("Success!");
+            } else {
+                System.out.println("The data you filled in are wrong.Please refilled in!");
+            }
+        }
+        catch (Exception e) {
+
+            // Print the exception
+            System.out.println(e);
+        }
+
+    }
 
 
 

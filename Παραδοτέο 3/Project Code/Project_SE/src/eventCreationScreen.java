@@ -3,6 +3,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class eventCreationScreen extends screen {
+
+    //attributes
+
     private JTextField title;
     private JTextField starts;
     private JTextField location;
@@ -21,7 +24,6 @@ public class eventCreationScreen extends screen {
     private JPanel Panel1;
     private JTextField capacity;
     private JLabel capacityLabel;
-    //attributes
 
 
     //constructor
@@ -30,7 +32,7 @@ public class eventCreationScreen extends screen {
         add.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(add,title.getText());
+                JOptionPane.showMessageDialog(add,"Success!");
                 String titleVal = title.getText();
                 String dateVal = starts.getText();
                 String capVal = capacity.getText();
@@ -43,7 +45,11 @@ public class eventCreationScreen extends screen {
         });
     }
 
-     public void createEventForm() {
+
+
+    // methods
+
+    public void createEventForm() {
         eventCreationScreen scr1 = new eventCreationScreen();
         scr1.setContentPane(scr1.Panel1);
         scr1.setVisible(true);
@@ -51,9 +57,6 @@ public class eventCreationScreen extends screen {
         scr1.setTitle("Event Creation");
         scr1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
-
-
-    // methods
 
     public void checkEventForm() {
         System.out.println("Processing event form");

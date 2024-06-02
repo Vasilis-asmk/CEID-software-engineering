@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        //defUser user1 = new defUser("name", "surname", 15);
+        //defUser user1 = new defUser("", "surname", 15);
         //user1.chooseScreen();
+        formCompletion();
         eventCreation();
-
-         parkingEmp parkemp = new parkingEmp();
+        // parkingEmp parkemp = new parkingEmp();
     }
-
+/*
     public static void createUser(){
         String name;
         String surname;
@@ -24,7 +24,7 @@ public class Main {
 
         defUser user1 = new defUser(name,surname,id);
         user1.chooseScreen();
-    }
+    }*/
 
     public static void eventCreation() {
         eventCreationScreen screen1 = new eventCreationScreen();

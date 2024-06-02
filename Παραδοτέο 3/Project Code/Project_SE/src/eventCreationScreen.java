@@ -40,7 +40,7 @@ public class eventCreationScreen extends screen {
                 String locationVal = location.getText();
                 String typeOfEventVal = typeOfEvent.getText();
                 String moreInformVal  = moreInform.getText();
-                System.out.println(titleVal);
+                insertIntoDbase(titleVal, dateVal, capacityVal, locationVal, typeOfEventVal, moreInformVal);
             }
         });
     }
@@ -81,15 +81,15 @@ public class eventCreationScreen extends screen {
     public void createEvent() {
 
         System.out.println("Event has been accepted and created.");
-        insertIntoDbase();
+        //insertIntoDbase();
     }
 
-    public void insertIntoDbase() {
-        dbConnection event_insertion = new dbConnection();
-        event_insertion.events("event.title","25/06/2024 18:00",50,"event.location","event.type","moreInform");
-        System.out.println("Event has been inserted to the database.");
-    }
+   public void insertIntoDbase(String title, String datetime, int capacity, String location, String eventType, String eventInfo) {
+       dbConnection event_insertion = new dbConnection();
+       event_insertion.events(title, datetime, capacity, location, eventType, eventInfo);
+       System.out.println("Event has been inserted to the database.");
 
+   }
     public void addToEvents() {
         System.out.println("Event has been added to the events list.");
     }

@@ -34,7 +34,7 @@ public class insertionOfNewParking extends screen{
 
     public void insertIntoDbase() {
         dbConnection park_insertion = new dbConnection();
-        park_insertion.parking("full name","owner@gmail.com","6996655544","parking","gounari",34,33444,444444444,"ddddd",56,"public");
+        park_insertion.parking("Gewrgios Papadopoulos","papadopoulos@gmail.com","6996655544","Parking","Gounari",34,33444,444444444,"invoice",56,"public");
         System.out.println("Parking has been inserted to the database.");
     }
 

@@ -43,7 +43,7 @@ public class trafficPage extends screen{
 
     public void insertIntoDbase(){
         dbConnection interrupt_insertion = new dbConnection();
-        interrupt_insertion.interrupt("location","street","reason","20/06/24 17:00");
+        interrupt_insertion.interrupt("Rio","Panepistimiou","Accident","20/06/24 17:00");
         System.out.println("Interrupt has been inserted to the database.");
     }
 
